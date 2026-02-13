@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Thanks — Happy Valentine's 💌</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="wrap">
+      <header class="hero">
+        <h1>Thanks, friends! <span class="accent">💖</span></h1>
+        <p class="lead">Happy Valentine's — you're loved. Click a card or press the confetti button!</p>
+        <div class="controls">
+          <button id="confettiBtn" class="btn">Celebrate 🎉</button>
+        </div>
+      </header>
+
+      <section id="cards" class="grid" aria-label="Friends">
+        <!-- Cards injected by script.js -->
+      </section>
+
+      <footer class="foot">
+        <small>Tip: edit the `friends` array in <code>script.js</code> to change names/messages.</small>
+      </footer>
+    </main>
+
+    <canvas id="confetti-canvas" aria-hidden="true"></canvas>
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
